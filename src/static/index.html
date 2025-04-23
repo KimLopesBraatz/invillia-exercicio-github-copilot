@@ -7,41 +7,43 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Mergington High School</h1>
-      <h2>Extracurricular Activities</h2>
+    <header class="header-modern">
+      <div class="header-content">
+        <h1>Mergington High School</h1>
+        <h2>Extracurricular Activities</h2>
+      </div>
     </header>
 
-    <main>
-      <section id="activities-container">
+    <main class="main-modern">
+      <section id="activities-container" class="section-modern">
         <h3>Available Activities</h3>
-        <div id="activities-list">
+        <div id="activities-list" class="activities-list-modern">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
         </div>
       </section>
 
-      <section id="signup-container">
+      <section id="signup-container" class="section-modern">
         <h3>Sign Up for an Activity</h3>
-        <form id="signup-form">
+        <form id="signup-form" class="form-modern">
           <div class="form-group">
             <label for="email">Student Email:</label>
-            <input type="email" id="email" required placeholder="your-email@mergington.edu" />
+            <input type="email" id="email" required placeholder="your-email@mergington.edu" class="input-modern" />
           </div>
           <div class="form-group">
             <label for="activity">Select Activity:</label>
-            <select id="activity" required>
+            <select id="activity" required class="select-modern">
               <option value="">-- Select an activity --</option>
               <!-- Activity options will be loaded here -->
             </select>
           </div>
-          <button type="submit">Sign Up</button>
+          <button type="submit" class="button-modern">Sign Up</button>
         </form>
-        <div id="message" class="hidden"></div>
+        <div id="message" class="message-modern hidden"></div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer-modern">
       <p>&copy; 2023 Mergington High School</p>
     </footer>
 
